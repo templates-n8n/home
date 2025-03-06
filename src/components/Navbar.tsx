@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center">
           <a href="/" className="text-2xl font-bold text-white">
-            n<span className="text-primary">8</span>n
+            Templates n<span className="text-primary">8</span>n
           </a>
         </div>
         
