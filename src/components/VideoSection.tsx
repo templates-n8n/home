@@ -69,4 +69,4 @@ const VideoSection = () => {
   );
 };
 
-export default VideoSection;
+ export default VideoSection;

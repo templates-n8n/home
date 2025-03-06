@@ -13,100 +13,78 @@ const TemplateShowcase = () => {
   // Templates atualizados para o português com mais detalhes
   const templates = [
     {
-      id: 1,
-      title: "Automação para clinicas",
-      description: "Automatize o processo de entrada de novos clientes de forma completa e eficiente.",
-      imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6",
-      category: "Negócios",
-      isNew: true,
-      link: "#template-1",
-      features: [
-        "Envio automático de e-mails de boas-vindas",
-        "Coleta e armazenamento de documentos",
-        "Integração com CRM",
-        "Configuração de acesso a plataformas",
-        "Programação automática de reuniões iniciais"
-      ]
-    },
-    {
       id: 2,
-      title: "Geração de Conteúdo com IA",
+      title: "Automação na Imobiliária",
       description: "Crie conteúdo de alta qualidade automaticamente usando agentes de inteligência artificial.",
       imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
       category: "Agentes IA",
       isNew: true,
       link: "#template-2",
       features: [
-        "Criação de artigos baseados em palavras-chave",
-        "Otimização SEO automática",
-        "Geração de imagens compatíveis",
-        "Calendário de publicação inteligente",
-        "Análise de performance do conteúdo"
+        "Matching de imóveis com preferências de clientes",
+        "Agendamento automático de visitas",
+        "Chat bot para perguntas frequentes sobre imóveis"
       ]
     },
     {
       id: 3,
-      title: "Automação de Pipeline de Vendas",
-      description: "Automatize seu processo de vendas desde a geração de leads até o fechamento.",
+      title: "BOT de Nutrição",
+      description: "Esse bot será responsavel por analisar as fotos enviadas de seu prato e avaliar o quanto você esta consumindo.",
       imageUrl: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
       category: "Processos",
       isNew: true,
       link: "#template-3",
       features: [
-        "Qualificação automática de leads",
-        "Sequência de e-mails personalizados",
-        "Agendamento inteligente de demonstrações",
-        "Geração automática de propostas",
-        "Acompanhamento pós-venda"
+        "Leitura de imagens para identificação de alimentos",
+        "Análise nutricional de alimentos",
+        "Recomendações personalizadas de alimentação"
       ]
     },
     {
       id: 4,
-      title: "Fluxo de Enriquecimento de Dados",
+      title: "Fluxo de E-commerce",
       description: "Aprimore seus dados de clientes com processos poderosos de enriquecimento.",
       imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475",
       category: "Integração",
       isNew: false,
       link: "#template-4",
       features: [
-        "Consolidação de múltiplas fontes de dados",
-        "Verificação e correção automática de informações",
-        "Segmentação avançada de clientes",
-        "Enriquecimento com dados de mercado",
-        "Alertas de oportunidades baseados em comportamento"
+        "Rastreamento de pedidos",
+        "Envio de notas fiscais",
+        "Agente de IA no atendimento",
+        "FaQ dinâmico"
       ]
     },
     {
       id: 5,
-      title: "Sequência de Marketing por Email",
+      title: "Fluxo para advocacia",
       description: "Configure sequências de emails automatizados para melhor engajamento com clientes.",
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
       category: "Negócios",
       isNew: false,
       link: "#template-5",
       features: [
-        "Segmentação avançada de público",
-        "Personalização dinâmica de conteúdo",
-        "A/B testing automático",
-        "Otimização de horários de envio",
-        "Análise detalhada de conversão"
+        "IA no atendimento",
+        "Gestão de calendario",
+        "Agendamentos automaticos"
       ]
     }
   ];
   
   // Template destacado
   const featuredTemplate = {
-    title: "Suite de Automação de Processos Empresariais",
-    description: "Nosso template mais completo para automação em nível empresarial. Otimize processos complexos de negócios, integre agentes de IA e conecte com suas ferramentas existentes.",
-    imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475",
-    features: [
-      "Automação de processos ponta a ponta",
-      "Tomada de decisões com IA",
-      "Integração com múltiplos sistemas",
-      "Relatórios e análises avançadas",
-      "Fluxos de aprovação personalizados"
-    ],
-    link: "#featured-template"
+    title: "Automação para clinicas",
+      description: "Automatize o processo de entrada de novos clientes de forma completa e eficiente.",
+      imageUrl: "https://medicinasa.com.br/wp-content/uploads/2023/04/chat-mensagem-whats-bot.jpg",
+      category: "Negócios",
+      isNew: true,
+      link: "https://pay.kiwify.com.br/SJOB95Z",
+      features: [
+        "Agendamento online de consultas com integração de calendário",
+        "Envio automático de lembretes de consultas via WhatsApp",
+        "Gestão de fila de espera",
+        "Notificações automáticas para pacientes sobre retornos e exames pendentes"
+      ]
   };
   
   const filteredTemplates = activeCategory === "Todos" 

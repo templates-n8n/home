@@ -41,7 +41,7 @@ const Hero = () => {
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in opacity-0"
                style={{ animationDelay: '0.8s', animationFillMode: 'forwards' }}>
             <CustomButton 
-              href="#templates" 
+              href="https://pay.kiwify.com.br/SJOB95Z" 
               variant="primary" 
               size="lg"
               rightIcon={<ArrowRight size={16} />}

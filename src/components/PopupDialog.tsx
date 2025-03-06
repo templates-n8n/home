@@ -57,7 +57,7 @@ const PopupDialog = () => {
             onClick={handleLearnMore}
             variant="primary"
             className="w-full"
-            href='https://api.whatsapp.com/send?phone=5516992253558&text='
+            href='https://pay.kiwify.com.br/SJOB95Z'
           >
             Quero Saber Mais
           </CustomButton>
